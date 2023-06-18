@@ -12,9 +12,17 @@ anyone in a simpler way and people who are taking care of them will get to know 
 important information at any time. 
 align="center"
 ## Interfaces
-<p >
+<p>
   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0001.jpg" height="350" width="200" title="hover text">
   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0002.jpg" height="350" width="200" title="hover text">
   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0003.jpg" height="350" width="200" title="hover text">
+   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0003.jpg" height="350" width="200" title="hover text">
+   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0003.jpg" height="350" width="200" title="hover text">
+   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0003.jpg" height="350" width="200" title="hover text">
+   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0003.jpg" height="350" width="200" title="hover text">
+   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0003.jpg" height="350" width="200" title="hover text">
+   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0003.jpg" height="350" width="200" title="hover text">
+   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0003.jpg" height="350" width="200" title="hover text">
+  
 </p>
 
