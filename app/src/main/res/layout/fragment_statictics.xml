@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/forum_button1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="349dp"
+            android:layout_height="421dp"
+            android:cropToPadding="false"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/home_page_background" />
+
+        <TextView
+            android:id="@+id/temperatureText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="96.5"
+            android:textColor="#12175E"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="@+id/temperatureText"
+            app:layout_constraintTop_toBottomOf="@+id/temperatureText" />
+
+        <TextView
+            android:id="@+id/statisticHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/hind_siliguri"
+            android:text="You're having mild symptom today."
+            android:textColor="#12175E"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView7"
+            app:layout_constraintHorizontal_bias="0.237"
+            app:layout_constraintStart_toStartOf="@+id/imageView7"
+            app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+        <TextView
+            android:id="@+id/statisticCough"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/hind_siliguri"
+            android:text="Mild COUGH"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView7"
+            app:layout_constraintStart_toStartOf="@+id/imageView7"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+        <TextView
+            android:id="@+id/statisticFlu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/hind_siliguri"
+            android:text="Mild FLU"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/statisticCough"
+            app:layout_constraintHorizontal_bias="0.428"
+            app:layout_constraintStart_toStartOf="@+id/statisticCough"
+            app:layout_constraintTop_toBottomOf="@+id/statisticFever" />
+
+        <TextView
+            android:id="@+id/statisticTaste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/hind_siliguri"
+            android:text="No LOSS OF TASTE"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/instaButton"
+            app:layout_constraintEnd_toEndOf="@+id/statisticCough"
+            app:layout_constraintHorizontal_bias="0.428"
+            app:layout_constraintStart_toStartOf="@+id/statisticCough"
+            app:layout_constraintTop_toBottomOf="@+id/statisticFlu"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/statisticFever"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/hind_siliguri"
+            android:text="Mild FEVER"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/statisticCough"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/statisticCough"
+            app:layout_constraintTop_toBottomOf="@+id/statisticCough" />
+
+
+        <TextView
+            android:id="@+id/temperatureText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="37.0"
+            android:textColor="#12175E"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView9"
+            app:layout_constraintHorizontal_bias="0.733"
+            app:layout_constraintStart_toStartOf="@+id/imageView7"
+            app:layout_constraintTop_toTopOf="@+id/imageView9" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="61dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="@+id/statisticHeader"
+            app:layout_constraintHorizontal_bias="0.413"
+            app:layout_constraintStart_toStartOf="@+id/statisticHeader"
+            app:layout_constraintTop_toBottomOf="@+id/statisticHeader"
+            app:srcCompat="@drawable/thermometer" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="61dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="@+id/imageView9"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9"
+            app:srcCompat="@drawable/bloodoxygen_1" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="139dp"
+            android:layout_height="115dp"
+            app:layout_constraintBottom_toTopOf="@+id/statisticCough"
+            app:layout_constraintEnd_toEndOf="@+id/imageView7"
+            app:layout_constraintHorizontal_bias="0.404"
+            app:layout_constraintStart_toEndOf="@+id/imageView9"
+            app:layout_constraintTop_toBottomOf="@+id/statisticHeader"
+            app:layout_constraintVertical_bias="0.309"
+            app:srcCompat="@drawable/healthy" />
+
+        <ImageView
+            android:id="@+id/faceboookButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/instaButton"
+            app:layout_constraintEnd_toStartOf="@+id/instaButton"
+            app:layout_constraintTop_toBottomOf="@+id/statisticTaste"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/instaButton"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+            app:layout_constraintEnd_toStartOf="@+id/MessengerButton"
+            app:srcCompat="@drawable/instagram" />
+
+        <ImageView
+            android:id="@+id/MessengerButton"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintEnd_toStartOf="@+id/whatsappButton"
+            app:layout_constraintTop_toTopOf="@+id/instaButton"
+            app:srcCompat="@drawable/messenger" />
+
+        <ImageView
+            android:id="@+id/whatsappButton"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="28dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView7"
+            app:layout_constraintTop_toTopOf="@+id/MessengerButton"
+            app:srcCompat="@drawable/whatsapp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsDetailsTwo">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/newsImage1"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/backButton4"
+            app:srcCompat="@drawable/news2" />
+
+        <TextView
+            android:id="@+id/newsName"
+            android:layout_width="201dp"
+            android:layout_height="143dp"
+            android:layout_marginStart="24dp"
+            android:lineSpacingExtra="3dp"
+            android:text="Siblings of children can get jab without booking in Singapore"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/newsImage1"
+            app:layout_constraintStart_toStartOf="@+id/newsImage1"
+            app:layout_constraintTop_toTopOf="@+id/newsImage1"
+            app:layout_constraintVertical_bias="0.382" />
+
+        <ImageView
+            android:id="@+id/backButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/newsImage1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/arrow_left" />
+
+        <TextView
+            android:id="@+id/newsDescrip"
+            android:layout_width="347dp"
+            android:layout_height="316dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/hind_siliguri"
+            android:text="SINGAPORE: Siblings of a child with an existing appointment to receive the COVID-19 vaccination will be able to receive the shot at the same time without the need to make a booking, Health Minister Ong Ye Kung said on Thursday (Nov 3).
+
+The new arrangement is available from Mondays to Thursdays, beginning on Nov 7, Mr Ong said in a Facebook post. This will make it more convenient for families with more than one child, he added.
+
+ADVERTISEMENT
+Parents should bring their children's identification documents for registration and arrive at the vaccination centre by 5.30pm on the given days, Mr Ong said.
+
+"
+            android:textColor="#10275A"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/newsImage1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/newsImage1"
+            app:layout_constraintTop_toBottomOf="@+id/newsImage1" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

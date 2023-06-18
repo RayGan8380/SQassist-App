@@ -1,0 +1,314 @@
+{
+  "name": "component_1",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "HQEPUDctUVCeJFnYZkZKox",
+    "node": "152:29",
+    "version": "2676821170"
+  },
+  "default": "Component 1",
+  "documentation": "First Page\n",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "SQassist"
+      },
+      {
+        "type": "text",
+        "id": "No worries, you have everything you need against COIVID-19"
+      },
+      {
+        "type": "group",
+        "id": "Mask group"
+      },
+      {
+        "type": "group",
+        "id": "Group 10"
+      },
+      {
+        "type": "group",
+        "id": "button/white1"
+      },
+      {
+        "type": "image",
+        "id": "care-caring-hands-removebg-preview 1"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 647"
+      },
+      {
+        "type": "text",
+        "id": "Sign Up"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle"
+      },
+      {
+        "type": "text",
+        "id": "Title"
+      }
+    ],
+    "modes": {
+      "Component 1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "SQassist",
+              "No worries, you have everything you need against COIVID-19",
+              "Mask group",
+              "Group 10",
+              "button/white1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "SQassist",
+            "margin": {
+              "left": "73.0",
+              "top": "320.0",
+              "right": "69.800048828125",
+              "bottom": "180.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "147.12328767123287",
+              "saturation": "0.6666666666666666",
+              "value": "0.8588235294117647"
+            },
+            "text-content": "SQassist",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "38.0",
+            "typeface": "Josefin Sans"
+          },
+          {
+            "id": "No worries, you have everything you need against COIVID-19",
+            "margin": {
+              "top": "395.0",
+              "right": "7.800048828125",
+              "bottom": "144.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "204.8780487804878",
+              "saturation": "0.5256410256410257",
+              "value": "0.3058823529411765"
+            },
+            "text-content": "No worries, you have everything you need against COIVID-19",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "16.0",
+            "line-height": "1.0625",
+            "typeface": "Hind Siliguri"
+          },
+          {
+            "id": "Mask group",
+            "margin": {
+              "left": "52.0",
+              "right": "60.800048828125",
+              "bottom": "328.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "care-caring-hands-removebg-preview 1",
+              "Rectangle 647"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 10",
+            "margin": {
+              "left": "136.0",
+              "top": "556.0",
+              "right": "122.800048828125"
+            },
+            "is-structured": "false",
+            "children": [
+              "Sign Up"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "button/white1",
+            "margin": {
+              "left": "14.0",
+              "top": "467.0",
+              "bottom": "54.892822265625"
+            },
+            "stroke-alignment": "center",
+            "is-structured": "false",
+            "children": [
+              "Rectangle",
+              "Title"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "care-caring-hands-removebg-preview 1",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "stroke-alignment": "center",
+            "image-content": "care_caring_hands_removebg_preview_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Rectangle 647",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_647.svg"
+          },
+          {
+            "id": "Sign Up",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "148.23529411764707",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "text-content": "Sign Up",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "21.0",
+            "line-height": "0.8095237731933593",
+            "typeface": "Hind Siliguri"
+          },
+          {
+            "id": "Rectangle",
+            "border-radius": "35.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle.svg"
+          },
+          {
+            "id": "Title",
+            "margin": {
+              "left": "127.5302734375",
+              "right": "129.269775390625"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "1.4464111328125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "299.03225806451616",
+              "saturation": "1.0",
+              "value": "0.24313725490196078"
+            },
+            "text-content": "Login",
+            "overflow": "visible",
+            "text-size": "21.0",
+            "line-height": "1.2189999534970237",
+            "typeface": "Montserrat"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Component 1",
+      "size": {
+        "width": 330.800048828125,
+        "height": 573.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

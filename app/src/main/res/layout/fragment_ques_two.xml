@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/forum_button1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="349dp"
+            android:layout_height="421dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/home_page_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/abitQues2Button"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded35"
+            android:fontFamily="@font/montserrat"
+            android:text="Abit"
+            android:textAllCaps="false"
+            android:textColor="#E91E63"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView8"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="@+id/imageView8"
+            app:layout_constraintTop_toBottomOf="@+id/noQues2Button" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="139dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView7"
+            app:layout_constraintHorizontal_bias="0.33"
+            app:layout_constraintStart_toStartOf="@+id/statisticHeader"
+            app:layout_constraintTop_toBottomOf="@+id/statisticHeader"
+            app:srcCompat="@drawable/coughing" />
+
+        <TextView
+            android:id="@+id/statisticHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/hind_siliguri"
+            android:text="Do you cough today?"
+            android:textColor="#12175E"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView7"
+            app:layout_constraintHorizontal_bias="0.257"
+            app:layout_constraintStart_toStartOf="@+id/imageView7"
+            app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/noQues2Button"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded35"
+            android:fontFamily="@font/montserrat"
+            android:text="No"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView8"
+            app:layout_constraintStart_toStartOf="@+id/imageView8"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/veryBadQues2Button"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded35"
+            android:fontFamily="@font/montserrat"
+            android:text="Very bad"
+            android:textAllCaps="false"
+            android:textColor="#E91E63"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView8"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="@+id/imageView8"
+            app:layout_constraintTop_toBottomOf="@+id/badQues2Button" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/badQues2Button"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded35"
+            android:fontFamily="@font/montserrat"
+            android:text="Bad"
+            android:textAllCaps="false"
+            android:textColor="#E91E63"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView8"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="@+id/imageView8"
+            app:layout_constraintTop_toBottomOf="@+id/abitQues2Button" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

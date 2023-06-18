@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/forum_button"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:translationZ="90dp">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="329dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/hind_siliguri"
+        android:text="Recently asked questions"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.402"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="349dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/hind_siliguri"
+        android:text="Ask Your Question Here"
+        android:textAlignment="viewStart"
+        android:textColor="#12175E"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/buttonb"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonb"
+        app:layout_constraintTop_toBottomOf="@+id/buttonb" />
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/menuBackground"-->
+<!--        android:layout_width="349dp"-->
+<!--        android:layout_height="61dp"-->
+<!--        android:background="@drawable/rounded14_white_button"-->
+<!--        android:clickable="false"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/askButton"-->
+<!--        app:layout_constraintVertical_bias="0.065" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/homeButton"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="29dp"-->
+<!--        android:layout_marginStart="28dp"-->
+<!--        android:translationZ="90dp"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/menuBackground"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/shopButton"-->
+<!--        app:srcCompat="@drawable/home" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/shopButton"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="29dp"-->
+<!--        android:layout_marginStart="24dp"-->
+<!--        android:translationZ="90dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/menuBackground"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/homeButton"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/menuBackground"-->
+<!--        app:srcCompat="@drawable/shop" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/newsButton"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="29dp"-->
+<!--        android:layout_marginStart="24dp"-->
+<!--        android:translationZ="90dp"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/shopButton"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/shopButton"-->
+<!--        app:srcCompat="@drawable/activity" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView12"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="29dp"-->
+<!--        android:layout_marginEnd="40dp"-->
+<!--        android:translationZ="90dp"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/menuBackground"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/newsButton"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/newsButton"-->
+<!--        app:srcCompat="@drawable/folder_color" />-->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/searchButton"
+        android:layout_width="349dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/searchbox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.338"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <ImageView
+        android:id="@+id/clearButton"
+        android:layout_width="30dp"
+        android:layout_height="29dp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/InputQuestion"
+        app:layout_constraintEnd_toEndOf="@+id/searchButton"
+        app:layout_constraintStart_toEndOf="@+id/InputQuestion"
+        app:layout_constraintTop_toTopOf="@+id/InputQuestion"
+        app:srcCompat="@drawable/close_square" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="30dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="12dp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/InputQuestion"
+        app:layout_constraintStart_toStartOf="@+id/searchButton"
+        app:layout_constraintTop_toTopOf="@+id/InputQuestion"
+        app:srcCompat="@drawable/search" />
+
+    <TextView
+        android:id="@+id/InputQuestion"
+        android:layout_width="224dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/hind_siliguri"
+        android:hint="Search for question"
+        android:textSize="15dp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/searchButton"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="@+id/searchButton" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttona"
+        android:layout_width="349dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rounded20lightgreen"
+        app:layout_constraintEnd_toEndOf="@+id/searchButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/searchButton"
+        app:layout_constraintTop_toBottomOf="@+id/searchButton" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonb"
+        android:layout_width="349dp"
+        android:layout_height="150dp"
+        android:background="@drawable/rounded20lightgreen"
+        app:layout_constraintEnd_toEndOf="@+id/buttona"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttona"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button4"
+        android:layout_width="352dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/rounded20lightblue"
+        app:layout_constraintEnd_toEndOf="@+id/textView14"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/askQuesDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:hint="Type Your Question Here"
+        android:textColor="#12175E"
+        android:translationZ="90dp"
+        app:layout_constraintStart_toStartOf="@+id/button4"
+        app:layout_constraintTop_toTopOf="@+id/button4" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="319dp"
+        android:layout_height="63dp"
+        android:text="Yes,  Youa can buy the SoreReliever at any pharmacy to relieve your pain."
+        android:translationZ="90dp"
+        app:layout_constraintStart_toStartOf="@+id/question"
+        app:layout_constraintTop_toBottomOf="@+id/question" />
+
+    <TextView
+        android:id="@+id/answer1"
+        android:layout_width="319dp"
+        android:layout_height="63dp"
+        android:text="Yes,  Youa can buy the SoreReliever at any pharmacy to relieve your pain."
+        android:translationZ="90dp"
+        app:layout_constraintStart_toStartOf="@+id/question2"
+        app:layout_constraintTop_toBottomOf="@+id/question2" />
+
+    <TextView
+        android:id="@+id/doctorName"
+        android:layout_width="231dp"
+        android:layout_height="24dp"
+        android:text="Dr. Stephen Huan"
+        android:textAlignment="textEnd"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttona"
+        app:layout_constraintEnd_toEndOf="@+id/answer"
+        app:layout_constraintTop_toBottomOf="@+id/answer" />
+
+    <TextView
+        android:id="@+id/doctorName2"
+        android:layout_width="231dp"
+        android:layout_height="24dp"
+        android:text="Dr. Stephen Huan"
+        android:textAlignment="textEnd"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonb"
+        app:layout_constraintEnd_toEndOf="@+id/answer1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/askButton"
+        android:layout_width="349dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded35_darkgreen"
+        android:fontFamily="@font/hind_siliguri"
+        android:text="Ask now"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/hind_siliguri"
+        android:text="What to buy to relieve sore throat?"
+        android:textColor="#10275A"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:translationZ="90dp"
+        app:layout_constraintStart_toStartOf="@+id/buttona"
+        app:layout_constraintTop_toTopOf="@+id/buttona" />
+
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/hind_siliguri"
+        android:text="Can’t stop my coughing, what should i do??"
+        android:textColor="#10275A"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:translationZ="90dp"
+        app:layout_constraintStart_toStartOf="@+id/buttonb"
+        app:layout_constraintTop_toTopOf="@+id/buttonb" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

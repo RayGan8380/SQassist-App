@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/settingText"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Setting"
+        android:textAlignment="center"
+        android:textColor="#10275A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/settingText2"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="General"
+        android:textAlignment="viewStart"
+        android:textColor="#10275A"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/settingText"
+        app:layout_constraintTop_toBottomOf="@+id/settingText" />
+
+    <TextView
+        android:id="@+id/settingText6"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="General"
+        android:textAlignment="viewStart"
+        android:textColor="#10275A"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/BackToHome"
+        app:layout_constraintStart_toStartOf="@+id/deleteText2"
+        app:layout_constraintTop_toBottomOf="@+id/BackToHome" />
+
+    <TextView
+        android:id="@+id/resetText"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Reset Password"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:textAlignment="viewStart"
+        android:textColor="#10275A"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="@+id/languageText"
+        app:layout_constraintTop_toBottomOf="@+id/languageText" />
+
+    <TextView
+        android:id="@+id/deleteText"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Delete Account"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:textAlignment="viewStart"
+        android:textColor="#10275A"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="@+id/resetText"
+        app:layout_constraintTop_toBottomOf="@+id/resetText" />
+
+    <TextView
+        android:id="@+id/BackToHome"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:text="Back To Home Page"
+        android:textAlignment="viewStart"
+        android:textColor="#10275A"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="@+id/resetText"
+        app:layout_constraintTop_toBottomOf="@+id/deleteText" />
+
+    <TextView
+        android:id="@+id/languageText"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Language"
+        android:textAlignment="viewStart"
+        android:textColor="#10275A"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="@+id/settingText2"
+        app:layout_constraintTop_toBottomOf="@+id/settingText2" />
+
+    <TextView
+        android:id="@+id/languageInput"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:textAlignment="textEnd"
+        android:textColor="#10275A"
+        android:textSize="17sp"
+        app:layout_constraintStart_toEndOf="@+id/languageText"
+        app:layout_constraintTop_toTopOf="@+id/languageText" />
+
+    <TextView
+        android:id="@+id/allowNotiText"
+        android:layout_width="262dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="28dp"
+        android:text="Allow Notification"
+        android:textAlignment="viewStart"
+        android:textColor="#10275A"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="@+id/settingText6"
+        app:layout_constraintTop_toBottomOf="@+id/settingText6" />
+
+    <ImageView
+        android:id="@+id/languageSelector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/languageInput"
+        app:layout_constraintEnd_toEndOf="@+id/settingText2"
+        app:layout_constraintTop_toTopOf="@+id/languageInput"
+        app:srcCompat="@drawable/arrow_right" />
+
+    <Switch
+        android:id="@+id/allowNoti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/allowNotiText"
+        app:layout_constraintEnd_toEndOf="@+id/settingText6"
+        app:layout_constraintTop_toTopOf="@+id/allowNotiText"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

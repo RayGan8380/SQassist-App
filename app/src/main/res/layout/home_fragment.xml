@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/forum_button1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textOfUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/hind_siliguri"
+            android:text="Hi, Ray"
+            android:textColor="#36CE86"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.081"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind_siliguri"
+            android:text="You will recover back soon!"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="@+id/textOfUsername"
+            app:layout_constraintTop_toBottomOf="@+id/textOfUsername" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind_siliguri"
+            android:text="Tell us how you feel today"
+            android:textColor="#36CE86"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView9"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+
+        <FrameLayout
+            android:id="@+id/question_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="-29dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/profileBtn"
+            android:layout_width="52dp"
+            android:layout_height="54dp"
+            android:layout_marginRight="16dp"
+            android:backgroundTint="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/textView9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/textOfUsername"
+            app:layout_constraintTop_toTopOf="@+id/textOfUsername" />
+
+        <ImageView
+            android:id="@+id/profileButton"
+            android:layout_width="40dp"
+            android:layout_height="36dp"
+            android:translationZ="90dp"
+            app:layout_constraintBottom_toBottomOf="@+id/profileBtn"
+            app:layout_constraintEnd_toEndOf="@+id/profileBtn"
+            app:layout_constraintStart_toStartOf="@+id/profileBtn"
+            app:layout_constraintTop_toTopOf="@+id/profileBtn"
+            app:layout_constraintVertical_bias="0.444"
+            app:srcCompat="@drawable/male_profile" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

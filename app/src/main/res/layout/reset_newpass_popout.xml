@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/languegePopout"
+        android:layout_width="247dp"
+        android:layout_height="177dp"
+        android:background="@drawable/rounded14_white_button"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Enter Password"
+        android:textColor="#10275A"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:translationZ="90dp"
+        app:layout_constraintEnd_toEndOf="@+id/languegePopout"
+        app:layout_constraintStart_toStartOf="@+id/languegePopout"
+        app:layout_constraintTop_toTopOf="@+id/languegePopout" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cancelConfirmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/rounded20_stroke"
+        android:text="Cancel"
+        android:textColor="#5B67CA"
+        app:layout_constraintBottom_toBottomOf="@+id/languegePopout"
+        app:layout_constraintStart_toStartOf="@+id/languegePopout"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:layout_constraintVertical_bias="0.735" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/confirmResetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded20_purple"
+        android:text="Comfirm"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/cancelConfirmButton"
+        app:layout_constraintEnd_toEndOf="@+id/languegePopout"
+        app:layout_constraintHorizontal_bias="0.69"
+        app:layout_constraintStart_toEndOf="@+id/cancelConfirmButton"
+        app:layout_constraintTop_toTopOf="@+id/cancelConfirmButton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/newPassInput"
+        app:layout_constraintStart_toStartOf="@+id/languegePopout"
+        app:layout_constraintTop_toTopOf="@+id/newPassInput"
+        app:srcCompat="@drawable/icon_passw" />
+
+    <EditText
+        android:id="@+id/newPassInput"
+        android:layout_width="195dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter Current Password"
+        android:inputType="textPassword"
+        android:textSize="14dp"
+        android:translationZ="90dp"
+        app:layout_constraintEnd_toEndOf="@+id/languegePopout"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

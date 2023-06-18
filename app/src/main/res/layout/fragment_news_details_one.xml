@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsDetailsOne">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/newsImage1"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/backButton3"
+            app:srcCompat="@drawable/news1" />
+
+        <TextView
+            android:id="@+id/newsName"
+            android:layout_width="201dp"
+            android:layout_height="143dp"
+            android:layout_marginStart="24dp"
+            android:lineSpacingExtra="3dp"
+            android:text="Indonesian authority approves home-made Inavac as Covid-19 vaccine"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/newsImage1"
+            app:layout_constraintStart_toStartOf="@+id/newsImage1"
+            app:layout_constraintTop_toTopOf="@+id/newsImage1"
+            app:layout_constraintVertical_bias="0.382" />
+
+        <ImageView
+            android:id="@+id/backButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/newsImage1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/arrow_left" />
+
+        <TextView
+            android:id="@+id/newsDescrip"
+            android:layout_width="347dp"
+            android:layout_height="316dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/hind_siliguri"
+            android:text="JAKARTA, Nov 5 (Xinhua): Indonesia's food and drug authority BPOM has approved the emergency use authorisation for the Inavac Covid-19 vaccine as primary for the age group of 18 years and above.  &quot;Considering security aspects and efficacy, the Inavac vaccine has been approved for active immunization for Covid-19 prevention in individuals aged 18 years and above,&quot; BPOM chief Penny K. Lukito told a virtual press conference on Friday."
+            android:textColor="#10275A"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/newsImage1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/newsImage1"
+            app:layout_constraintTop_toBottomOf="@+id/newsImage1" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

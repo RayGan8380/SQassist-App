@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        android:layout_width="128dp"
+        android:layout_height="95dp"
+        android:background="@drawable/rounded14_white_button"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <ImageView
+        android:id="@+id/settingIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:translationZ="90dp"
+        app:layout_constraintStart_toStartOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="@+id/button3"
+        app:srcCompat="@drawable/setting" />
+
+    <ImageView
+        android:id="@+id/LogoutIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="@+id/settingIcon"
+        app:layout_constraintTop_toBottomOf="@+id/settingIcon"
+        app:srcCompat="@drawable/logout" />
+
+    <TextView
+        android:id="@+id/settingView"
+        android:layout_width="71dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/hind_siliguri"
+        android:text="Setting"
+        android:textColor="#10275A"
+        android:translationZ="90dp"
+        app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintStart_toEndOf="@+id/settingIcon"
+        app:layout_constraintTop_toTopOf="@+id/settingIcon" />
+
+    <TextView
+        android:id="@+id/LogoutView"
+        android:layout_width="71dp"
+        android:layout_height="22dp"
+        android:fontFamily="@font/hind_siliguri"
+        android:text="Log Out"
+        android:textColor="#10275A"
+        android:translationZ="90dp"
+        app:layout_constraintEnd_toEndOf="@+id/settingView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/LogoutIcon"
+        app:layout_constraintTop_toTopOf="@+id/LogoutIcon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

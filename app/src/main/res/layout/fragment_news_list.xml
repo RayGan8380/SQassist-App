@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newsList">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/newsImage1"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="116dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/news1" />
+
+
+        <ImageView
+            android:id="@+id/newsImage2"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/newsImage1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/newsImage1"
+            app:layout_constraintTop_toBottomOf="@+id/newsImage1"
+            app:layout_constraintVertical_bias="0.143"
+            app:srcCompat="@drawable/news2" />
+
+        <TextView
+            android:id="@+id/newsName1"
+            android:layout_width="201dp"
+            android:layout_height="123dp"
+            android:layout_marginStart="24dp"
+            android:lineSpacingExtra="3dp"
+            android:text="Indonesian authority approves home-made Inavac as Covid-19 vaccine"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/newsImage1"
+            app:layout_constraintStart_toStartOf="@+id/newsImage1"
+            app:layout_constraintTop_toTopOf="@+id/newsImage1"
+            app:layout_constraintVertical_bias="0.382" />
+
+        <TextView
+            android:id="@+id/newsName2"
+            android:layout_width="201dp"
+            android:layout_height="123dp"
+            android:layout_marginStart="24dp"
+            android:lineSpacingExtra="3dp"
+            android:text="Siblings of children can get jab without booking in Singapore"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/newsImage2"
+            app:layout_constraintStart_toStartOf="@+id/newsImage2"
+            app:layout_constraintTop_toTopOf="@+id/newsImage2"
+            app:layout_constraintVertical_bias="0.382" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

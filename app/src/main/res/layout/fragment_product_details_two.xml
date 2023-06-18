@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Product">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button2"
+            android:layout_width="349dp"
+            android:layout_height="450dp"
+            android:background="@drawable/rounded20"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="159dp"
+            android:layout_height="96dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp"
+            android:lineSpacingExtra="3sp"
+            android:text="Brand's Blackcurrant Anthocyanins with Lutein"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:translationZ="90dp"
+            app:layout_constraintBottom_toTopOf="@+id/detailsButton"
+            app:layout_constraintEnd_toStartOf="@+id/imageProduct1"
+            app:layout_constraintHorizontal_bias="0.058"
+            app:layout_constraintStart_toStartOf="@+id/button2"
+            app:layout_constraintTop_toBottomOf="@+id/backButton2"
+            app:layout_constraintVertical_bias="0.344" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/detailsButton"
+            android:layout_width="311dp"
+            android:layout_height="260dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded14_white_button"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:translationZ="1000dp"
+            app:layout_constraintBottom_toBottomOf="@+id/button2"
+            app:layout_constraintEnd_toEndOf="@+id/imageProduct1"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/productName" />
+
+        <ImageView
+            android:id="@+id/imageProduct1"
+            android:layout_width="133dp"
+            android:layout_height="128dp"
+            android:layout_marginEnd="16dp"
+            android:translationZ="90dp"
+            app:layout_constraintBottom_toBottomOf="@+id/productName"
+            app:layout_constraintEnd_toEndOf="@+id/button2"
+            app:layout_constraintTop_toTopOf="@+id/productName"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/supplement2_1" />
+
+        <TextView
+            android:id="@+id/productDetails"
+            android:layout_width="277dp"
+            android:layout_height="133dp"
+            android:layout_marginTop="20dp"
+            android:lineSpacingExtra="2sp"
+            android:text="BRAND’S® Blackcurrant Anthocyanins with Lutein is suitable for all adults and teens above 15 years, highly recommended for those frequently outdoor, those who use smartphones, laptops, computers and other electronic devices, and those who watch TV. "
+            android:textAlignment="textStart"
+            android:textColor="#12175E"
+            android:translationZ="90dp"
+            app:layout_constraintEnd_toEndOf="@+id/detailsButton"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="@+id/detailsButton"
+            app:layout_constraintTop_toTopOf="@+id/detailsButton" />
+
+        <TextView
+            android:id="@+id/suggestedPlace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pharmacy, Aeon, Lotus"
+            android:textColor="#111111"
+            android:textStyle="bold"
+            android:translationZ="90dp"
+            app:layout_constraintBottom_toBottomOf="@+id/detailsButton"
+            app:layout_constraintStart_toStartOf="@+id/textView17"
+            app:layout_constraintTop_toBottomOf="@+id/textView17"
+            app:layout_constraintVertical_bias="0.24" />
+
+        <TextView
+            android:id="@+id/productPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="RM 30 - RM 50 "
+            android:textColor="#111111"
+            android:textStyle="bold"
+            android:translationZ="90dp"
+            app:layout_constraintStart_toStartOf="@+id/productDetails"
+            app:layout_constraintTop_toBottomOf="@+id/productDetails" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Places can buy :"
+            android:textColor="#111111"
+            android:textStyle="bold"
+            android:translationZ="90dp"
+            app:layout_constraintStart_toStartOf="@+id/productPrice"
+            app:layout_constraintTop_toBottomOf="@+id/productPrice" />
+
+        <ImageView
+            android:id="@+id/backButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationZ="90dp"
+            app:layout_constraintBottom_toTopOf="@+id/productName"
+            app:layout_constraintEnd_toEndOf="@+id/productName"
+            app:layout_constraintHorizontal_bias="0.098"
+            app:layout_constraintStart_toStartOf="@+id/button2"
+            app:layout_constraintTop_toTopOf="@+id/button2"
+            app:layout_constraintVertical_bias="0.583"
+            app:srcCompat="@drawable/arrow_left" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
