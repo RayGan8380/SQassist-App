@@ -12,3 +12,5 @@ anyone in a simpler way and people who are taking care of them will get to know 
 important information at any time. 
 
 ## Interfaces
+![alt text](https://github.com/RayGan8380/SQassist-App/interfaces
+)
