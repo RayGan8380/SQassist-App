@@ -16,13 +16,20 @@ align="center"
   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0001.jpg" height="350" width="200" title="hover text">
   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0002.jpg" height="350" width="200" title="hover text">
   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0003.jpg" height="350" width="200" title="hover text">
-   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0003.jpg" height="350" width="200" title="hover text">
-   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0003.jpg" height="350" width="200" title="hover text">
-   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0003.jpg" height="350" width="200" title="hover text">
-   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0003.jpg" height="350" width="200" title="hover text">
-   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0003.jpg" height="350" width="200" title="hover text">
-   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0003.jpg" height="350" width="200" title="hover text">
-   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0003.jpg" height="350" width="200" title="hover text">
+   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0007.jpg" height="350" width="200" title="hover text">
+   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0012.jpg" height="350" width="200" title="hover text">
+   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0013.jpg" height="350" width="200" title="hover text">
+   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0014.jpg" height="350" width="200" title="hover text">
+   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0015.jpg" height="350" width="200" title="hover text">
+   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0016.jpg" height="350" width="200" title="hover text">
+   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0017.jpg" height="350" width="200" title="hover text">
+   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0018.jpg" height="350" width="200" title="hover text">
+   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0020.jpg" height="350" width="200" title="hover text">
+   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0021.jpg" height="350" width="200" title="hover text">
+   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0022.jpg" height="350" width="200" title="hover text">
+   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0023.jpg" height="350" width="200" title="hover text">
+   <img src="https://github.com/RayGan8380/SQassist-App/blob/master/interfaces/Dailoz%20(Copy)_page-0024.jpg" height="350" width="200" title="hover text">
+   
   
 </p>
 
